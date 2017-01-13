@@ -1,60 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Asaf Alshech, Student</title>
+  <title>Asaf's Page</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="http://use.fontawesome.com/f9001c39ac.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Indie+Flower" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"
 </head>
 <body>
-  <div id="wrapper">
-    <h1>Asaf Alshech</h1>
-    <p>
-      <img src="Asaf.JPG">
-    </p>
-    <h2>Student</h2>
-    <h3>Evanston, IL</h3>
-    <div>
-      <h4>Feel free to reach out to me or to stalk me!!!</h4>
+  <ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="index.html">Home</a></li>
+  <li role="presentation"><a href="songs.html">Songs</a></li>
+  <li role="presentation"><a href="movies.html">Movies</a></li>
+</ul>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class=header id=jumheader> Welcome To My Page!</h1>
+      <img src="images/mypicture.jpg" width="200" class="img-circle">
+      <h3>Here you will find:</h3>
       <ul>
-        <li><a href="mailto:asafalshech@gmail.com">Email</a></li>
-        <li><a href="http://facebook.com/asaf.alshech">Facebook</a></li>
+          <li><h4>Really cool songs</h4></li>
+          <li><h4>Amazing movie reviews</h4></li>
+          <li><h4>More coming soon!</h4>
       </ul>
     </div>
-    <div>
-      <h4 id="summary">Summary</h4>
-      <p>
-        Asaf is a student at Kellogg School of Managemnt.
-      </p>
-    </div>
-    <div>
-      <h4>Experience</h4>
-      <div>
-        <h5>Summer Intern, Apple</h5>
-        <p>Did a lot of cool stuff</p>
-    </div>
-    <div>
-        <h5>Label manager, Helicon Music</h5>
-        <p>Did a lot of cool stuff</p>
+    <div class="row">
+      <div class="col-sm-6">
+        <h4>Music</h4>
+        <h3><a href="songs.html" class="btn btn-primary">Find out about my latest favorite songs</a></h3>
       </div>
-      <div>
-        <h5>Combat Soldier, Israel Defense Forces</h5>
-        <p>Did a lot of cool stuff</p>
+      <div class="col-sm-6">
+        <h4>Movies</h4>
+        <h3><a href="movies.html" class="btn btn-primary">Find out about my latest favorite movies</a></h3>
       </div>
     </div>
-    <div>
-      <h4 class="skills-and-hobbies">Skills</h4>
-      <ul>
-        <li>Sleeping</li>
-        <li>Music</li>
-        <li>Coding</li>
-      </ul>
     </div>
     <div>
-      <h4 class="skills-and-hobbies">Hobbies</h4>
-      <ul>
-        <li>Cooking</li>
-      </ul>
+      <p id=bottomline> This cool website was created as an exercise </p>
     </div>
   </div>
 </body>

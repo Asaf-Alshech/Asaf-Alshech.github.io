@@ -1,0 +1,25 @@
+.jumbotron {
+  background-color: #27adb0
+}
+.jumbotron h1 {
+  color: blue;
+  font-family: 'Bungee Shade', cursive;
+}
+.jumbotron h3 {
+  color: purple;
+}
+.jumbotron h4 {
+  color: pink;
+}
+h2 {
+  color: green;
+}
+.header {
+  font-family: 'Bungee Shade', cursive;
+  text-align: center;
+}
+#bottomline {
+  color: blue;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+}
